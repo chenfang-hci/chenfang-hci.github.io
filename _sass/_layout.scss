@@ -111,14 +111,14 @@ video.z-depth-5,
 }
 
 .home-simple__profile {
-  width: 72px;
-  min-width: 72px;
+  width: 64px;
+  min-width: 64px;
   margin: 0;
 }
 
 .home-simple__profile img {
   border: 2px solid var(--global-divider-color);
-  border-radius: 50%;
+  border-radius: 0;
   box-shadow: none;
 }
 
@@ -256,8 +256,8 @@ video.z-depth-5,
   }
 
   .home-simple__profile {
-    width: 64px;
-    min-width: 64px;
+    width: 56px;
+    min-width: 56px;
   }
 
   .home-simple__columns {
