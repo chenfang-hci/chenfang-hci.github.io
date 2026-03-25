@@ -2,7 +2,7 @@
 layout: page
 title: Mobile Game UX and Hand Fatigue Study
 description: An EDA-based industry study on physical comfort, fatigue, and interaction experience in mobile gaming.
-img: assets/img/projects/mobile-game-eda.png
+img: assets/img/projects/project7.png
 importance: 7
 category: industry
 ---

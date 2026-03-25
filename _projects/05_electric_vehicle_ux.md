@@ -2,7 +2,7 @@
 layout: page
 title: Electric Vehicle Interior UX Study
 description: An industry collaboration using ERP to evaluate in-vehicle interaction design and user experience.
-img: assets/img/projects/electric-vehicle-erp.png
+img: assets/img/projects/project5.png
 importance: 5
 category: industry
 ---

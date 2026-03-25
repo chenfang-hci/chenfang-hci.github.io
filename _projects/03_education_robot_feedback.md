@@ -2,7 +2,7 @@
 layout: page
 title: Multimodal Feedback in Educational Robots
 description: How voice gender and body movements influence affective outcomes, attention, and cerebral activity in robot-assisted learning.
-img: assets/img/projects/project3.1.png
+img: assets/img/projects/project3.2.png
 importance: 3
 category: academic
 ---
