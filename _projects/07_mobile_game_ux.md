@@ -14,7 +14,7 @@ This project examined user experience in a mobile game, with particular attentio
 We combined subjective assessments with electrodermal activity (EDA) measures to capture fatigue- and cognitive-load-related signals during play. I contributed to the data analysis and the interpretation of multimodal findings to support design improvement decisions.
 
 <div class="project-media">
-  <img src="{{ '/assets/img/projects/project7.png' | relative_url }}" alt="EDA-based mobile game hand fatigue evaluation results" class="img-fluid rounded project-inline-image">
+  <img src="/assets/img/projects/project7.png" alt="EDA-based mobile game hand fatigue evaluation results" class="img-fluid rounded project-inline-image">
 </div>
 
 The project provided a data-driven basis for evaluating how interaction strategies influence comfort and engagement in mobile gaming contexts.
