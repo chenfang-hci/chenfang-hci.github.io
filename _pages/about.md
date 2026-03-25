@@ -9,9 +9,6 @@ profile:
   image: profile_pic.jpeg
   image_circular: true
   more_info: >
-    <p>Based in Ghent, Belgium</p>
-    <p>Human-AI Interaction</p>
-    <p>Multimodal UX Measurement</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
