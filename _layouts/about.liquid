@@ -64,9 +64,7 @@ layout: default
 
       <section class="home-simple__section">
         <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a></h2>
-        <div class="publications">
-          {% bibliography %}
-        </div>
+        {% include publications_fallback.liquid context='publications' %}
       </section>
     </div>
 

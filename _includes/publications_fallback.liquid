@@ -1,0 +1,35 @@
+<div class="publications publications-fallback">
+  {% if site.scholar_userid or site.semanticscholar_id %}
+    <p>
+      {% if include.context == 'references' %}
+        Related publications are available on these external profiles.
+      {% elsif include.context == 'selected' %}
+        Selected publications are available on these external profiles.
+      {% else %}
+        Publication list is available on these external profiles.
+      {% endif %}
+    </p>
+    <ul class="list-unstyled mb-0">
+      {% if site.scholar_userid %}
+        <li>
+          <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a>
+        </li>
+      {% endif %}
+      {% if site.semanticscholar_id %}
+        <li>
+          <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}">Semantic Scholar</a>
+        </li>
+      {% endif %}
+    </ul>
+  {% else %}
+    <p class="mb-0">
+      {% if include.context == 'references' %}
+        Add a publication profile in <code>_config.yml</code> to display related references here.
+      {% elsif include.context == 'selected' %}
+        Add a publication profile in <code>_config.yml</code> to display selected publications here.
+      {% else %}
+        Add a publication profile in <code>_config.yml</code> to display publications here.
+      {% endif %}
+    </p>
+  {% endif %}
+</div>
