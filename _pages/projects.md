@@ -1,12 +1,12 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+description: Academic and industry projects in human-AI interaction, HRI, and multimodal UX research.
+nav: true
+nav_order: 4
+display_categories: [academic, industry]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

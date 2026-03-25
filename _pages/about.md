@@ -1,18 +1,17 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='https://www.ugent.be/en'>Ghent University</a>
+subtitle: Joint PhD Candidate at <a href='https://www.neu.edu.cn/'>Northeastern University</a> and <a href='https://www.ugent.be/en'>Ghent University</a>
 
 profile:
   align: right
-  image: profile_pixel.png
-  # profile_pixel.png
-  image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  image: profile.jpg
+  image_circular: true
+  more_info: >
+    <p>Based in Ghent, Belgium</p>
+    <p>Human-AI Interaction</p>
+    <p>Multimodal UX Measurement</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -21,6 +20,10 @@ social: true # includes social icons at the bottom of the page
 latest_posts: false
 ---
 
-I am presently pursuing my Ph.D. studies within the UGent [Hardware Embedded System (HES)](https://hes.elis.ugent.be/) team at the CSL lab, under the guidance of Prof. [Dirk Stroobandt](https://hes.elis.ugent.be/dstrooba/) since Oct. 2023. I obtained my MSc in Electrical Engineering from Ghent University in 2023.
+Hello! I am Chen Fang, a joint PhD candidate at [Northeastern University](https://www.neu.edu.cn/) and [Ghent University](https://www.ugent.be/en), currently based in Ghent. I am supervised by Prof. Fu Guo at Northeastern University and Prof. Tony Belpaeme at Ghent University.
 
-My current research focuses on interconnect-aware EDA (logic synthesis and physical design) — especially optimizing netlist interconnect structure to accelerate FPGA physical design and resolve interconnect bottlenecks in 2.5D/3D FPGA systems. I am open to research collaboration in related topics. Let me know if you are interested!
+My research focuses on user experience and the cognitive and affective mechanisms underlying human-AI interaction. I specialize in integrating subjective evaluations with objective multimodal measurements, including eye tracking, peripheral physiological signals, electroencephalography (EEG), and functional near-infrared spectroscopy (fNIRS), to build a more complete understanding of user responses.
+
+I obtained my master's degree in Management Science and Engineering at Northeastern University, where I ranked first in my cohort. My earlier work centered on robotic affective touch and multimodal human-robot interaction, including users' emotional responses to different robotic touches and the potential of humanoid touch for emotional regulation. Building on this line of work, my doctoral research investigates conversational agents, with a focus on intentional stance and trust formation during interaction.
+
+More broadly, I am interested in how humans interpret and attribute mental states to intelligent agents, including intentional stance, mentalization, and Theory of Mind in both HRI and HCI contexts. I am open to research collaborations in related areas.

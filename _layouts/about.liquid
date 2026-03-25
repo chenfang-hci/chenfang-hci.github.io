@@ -29,14 +29,9 @@ layout: default
         <div class="home-simple__heading">
           <h1 class="post-title home-simple__title">
             {% if site.title == 'blank' %}
-              <span class="name-toggle" title="Xiaoke Wang">
-                <span class="name-en">
-                  <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-                  {{ site.last_name }}
-                </span>
-                <span class="name-zh"><span class="font-weight-bold">王筱轲</span></span>
-                <!-- hidden pinyin to help search/indexing: "wang xiao ke" -->
-                <span class="name-pinyin" style="display:none">wang xiao ke</span>
+              <span class="name-toggle" title="{{ site.first_name }} {{ site.last_name }}">
+                <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+                {{ site.last_name }}
               </span>
             {% else %}
               {{ site.title }}

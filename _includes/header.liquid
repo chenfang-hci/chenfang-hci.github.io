@@ -5,21 +5,16 @@
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.url }}{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
-            <span class="name-toggle" title="Xiaoke Wang">
-              <span class="name-en">
-                {% if site.first_name %}
-                  <span class="font-weight-bold">{{- site.first_name -}}</span>
-                {% endif %}
-                {% if site.middle_name %}
-                  {{- site.middle_name -}}
-                {% endif %}
-                {% if site.last_name %}
-                  {{- site.last_name -}}
-                {% endif %}
-              </span>
-              <span class="name-zh"><span class="font-weight-bold">王筱轲</span></span>
-              <!-- hidden pinyin to help search/indexing: "wang xiao ke" -->
-              <span class="name-pinyin" style="display:none">wang xiao ke</span>
+            <span class="name-toggle" title="{{ site.first_name }} {{ site.last_name }}">
+              {% if site.first_name %}
+                <span class="font-weight-bold">{{- site.first_name -}}</span>
+              {% endif %}
+              {% if site.middle_name %}
+                {{- site.middle_name -}}
+              {% endif %}
+              {% if site.last_name %}
+                {{- site.last_name -}}
+              {% endif %}
             </span>
           {% else %}
             {{- site.title -}}
