@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://users.ugent.be/~xiaokwan/sitemap.xml
