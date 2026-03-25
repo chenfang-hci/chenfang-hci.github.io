@@ -1,0 +1,6 @@
+/* Custom alignment for about page: align name to bottom of photo */
+@media (min-width: 576px) {
+  .home-simple__identity {
+    align-items: flex-end !important;
+  }
+}
