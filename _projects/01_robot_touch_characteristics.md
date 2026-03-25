@@ -13,7 +13,7 @@ Robot touch is an important interaction channel for emotional communication and 
 
 We conducted a within-subject study that combined self-reported affect with electrocardiography (ECG) and functional near-infrared spectroscopy (fNIRS). The results showed that touch type and length jointly influenced subjective emotional experience and cerebral activity, while touch location affected heart-rate variability and cerebral responses.
 
-The findings suggest that short-grip and long-contact robot behaviors may induce more positive emotions, while forearm touch may support emotional regulation even when it does not directly increase positive affect. This work was published in the _International Journal of Social Robotics_.
+The findings suggest that short-grip and long-contact robot behaviors may induce more positive emotions, while forearm touch may support emotional regulation even when it does not directly increase positive affect. [This work](https://doi.org/10.1007/s12369-024-01110-8) was published in the _International Journal of Social Robotics_.
 
 <div class="project-media">
   <img src="/assets/img/projects/prject1.1.jpeg" alt="Pepper robot touch experiment setup" class="img-fluid rounded project-inline-image">

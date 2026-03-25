@@ -21,4 +21,4 @@ We first developed a questionnaire to measure users' intentional stance toward m
   <img src="/assets/img/projects/project4.2.jpg" alt="Model and result summary for intentional stance and trust" class="img-fluid rounded project-inline-image">
 </div>
 
-This work advances our understanding of how users attribute agency and form trust in conversational systems, with direct implications for the design of engaging and trustworthy mental health AI. The paper was accepted by _IEEE RO-MAN 2025_.
+[This work](https://doi.org/10.1109/RO-MAN63969.2025.11217721) advances our understanding of how users attribute agency and form trust in conversational systems, with direct implications for the design of engaging and trustworthy mental health AI. The paper was accepted by _IEEE RO-MAN 2025_.

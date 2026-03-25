@@ -16,7 +16,7 @@ Subjective emotional ratings were analyzed together with ECG and fNIRS signals. 
 
 
 
-The study provides subjective and neurophysiological evidence for the potential of humanoid robotics in emotion regulation and mental support scenarios. This work was published in _Behaviour & Information Technology_.
+The study provides subjective and neurophysiological evidence for the potential of humanoid robotics in emotion regulation and mental support scenarios. [This work](https://doi.org/10.1080/0144929X.2024.2427831) was published in _Behaviour & Information Technology_.
 <div class="project-media">
   <img src="/assets/img/projects/project2.1.png" alt="Experimental procedure for humanoid touch and emotion regulation study" class="img-fluid rounded project-inline-image">
 </div>
