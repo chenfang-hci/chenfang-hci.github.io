@@ -16,9 +16,9 @@ We conducted a within-subject study that combined self-reported affect with elec
 The findings suggest that short-grip and long-contact robot behaviors may induce more positive emotions, while forearm touch may support emotional regulation even when it does not directly increase positive affect. [This work](https://doi.org/10.1007/s12369-024-01110-8) was published in the _International Journal of Social Robotics_.
 
 <div class="project-media">
-  <img src="/assets/img/projects/prject1.1.jpeg" alt="Pepper robot touch experiment setup" class="img-fluid rounded project-inline-image">
+  <img src="/assets/img/projects/prject1.1.jpeg" alt="Pepper robot touch experiment setup" class="img-fluid rounded project-inline-image" style="max-width:300px; height:auto;">
 </div>
 
 <div class="project-media">
-  <img src="/assets/img/projects/project1.2.png" alt="fNIRS response patterns under different feedback conditions" class="img-fluid rounded project-inline-image">
+  <img src="/assets/img/projects/project1.2.png" alt="fNIRS response patterns under different feedback conditions" class="img-fluid rounded project-inline-image" style="max-width:300px; height:auto;">
 </div>
