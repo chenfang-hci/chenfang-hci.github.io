@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 latest_posts: false
 ---
 
-Hello! I am Chen Fang, a joint PhD candidate at [Northeastern University](https://english.neu.edu.cn/) and [Ghent University](https://www.ugent.be/en), currently based in Ghent. I am supervised by Prof. Fu Guo at Northeastern University and Prof. Tony Belpaeme at Ghent University.
+Hello! I am Chen Fang, a joint PhD candidate at [Northeastern University](https://english.neu.edu.cn/) and [Ghent University](https://www.ugent.be/en), currently based in Ghent. I am supervised by Prof. Fu Guo at Northeastern University and Prof. [Tony Belpaeme](https://tonybelpaeme.me/) at Ghent University.
 
 My research focuses on user experience and the cognitive and affective mechanisms underlying human-AI interaction. I specialize in integrating subjective evaluations with objective multimodal measurements, including eye tracking, peripheral physiological signals, electroencephalography (EEG), and functional near-infrared spectroscopy (fNIRS), to build a more complete understanding of user responses.
 
