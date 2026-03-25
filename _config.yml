@@ -412,7 +412,6 @@ imagemagick:
     - assets/img/
   input_formats:
     - ".jpg"
-    - ".jpeg"
     - ".png"
     - ".tiff"
     - ".gif"
