@@ -11,12 +11,10 @@ Fu Guo, Chen Fang, Zenggen Ren, and Mingming Li
 
 This project investigated whether humanoid robotic touch can help regulate users' emotions during an affective experience. We designed a mixed experiment with touch type (grip versus contact) as a between-subjects factor and the presence of touch during movie viewing as a within-subjects factor.
 
-
 Subjective emotional ratings were analyzed together with ECG and fNIRS signals. The results showed that robot touch increased positive emotions, reduced heart rate, increased heart-rate variability, and helped suppress right DLPFC activity. In contrast, the main effect of touch type was limited.
 
-
-
 The study provides subjective and neurophysiological evidence for the potential of humanoid robotics in emotion regulation and mental support scenarios. [This work](https://doi.org/10.1080/0144929X.2024.2427831) was published in _Behaviour & Information Technology_.
+
 <div class="project-media">
   <img src="/assets/img/projects/project2.1.png" alt="Experimental procedure for humanoid touch and emotion regulation study" class="img-fluid rounded project-inline-image">
 </div>
