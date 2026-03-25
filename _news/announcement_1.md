@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-11-19 15:59:00-0400
+date: 2025-06-09 09:00:00+0200
 inline: true
 related_posts: false
 ---
 
-Our journal article was accepted by **IEEE/Optica Journal of Lightwave Technology (JLT)**.
+Our paper "How Conversation Type and Presumed Message Source Influence Users' Trust towards Mental Health Conversational Agents: The Mediator Effect of Intentional Stance" was accepted by **IEEE RO-MAN 2025**.

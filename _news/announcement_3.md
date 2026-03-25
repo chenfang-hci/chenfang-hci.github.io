@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-11-28 07:59:00-0400
+date: 2026-03-06 09:00:00+0100
 inline: true
 related_posts: false
 ---
 
-My Ph.D. [poster](https://doi.org/10.5281/zenodo.15077103) was presented at **FEARs 2024**.
+Our paper "Effects of Robot's Face Ratio and Eye Shape on Users' Perceived Trustworthiness, and Neural Activity: An Event-Related Potential Study" was accepted by the **International Journal of Human-Computer Interaction**.

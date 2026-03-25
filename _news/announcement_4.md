@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-03-11 07:59:00-0400
+date: 2026-03-16 09:00:00+0100
 inline: true
 related_posts: false
 ---
 
-Our [conference paper](https://doi.org/10.48550/arXiv.2503.06257) on FPGA packing was accepted and presented at **HEART 2025**.
+I was invited to give a spotlight talk and join the panel discussion at the **HRI 2026 workshop "Empowering Human-Robot Communication Through Non-Linguistic Pathways"**.
