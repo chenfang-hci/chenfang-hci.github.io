@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://users.ugent.be/~xiaokwan/sitemap.xml
+Sitemap: https://chenfang-hci.github.io/sitemap.xml
