@@ -13,4 +13,8 @@ This project investigated the user experience of a large-scale mobile applicatio
 
 We integrated subjective user evaluations with objective eye-tracking measures to study visual attention patterns and behavioral responses. I contributed to experimental design, data collection, analysis, and the interpretation of results for design-oriented recommendations.
 
+<div class="project-media">
+  <img src="{{ '/assets/img/projects/project6.png' | relative_url }}" alt="Mobile app layout comparison used in the eye-tracking study" class="img-fluid rounded project-inline-image">
+</div>
+
 The work supported a more comprehensive understanding of how visual design configurations affect usability and user engagement in mobile platforms.

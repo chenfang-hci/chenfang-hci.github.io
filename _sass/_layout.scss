@@ -279,4 +279,27 @@ video.z-depth-5,
 * Projects
 *****************************************************************************/
 
-// TODO: redefine projects layout.
+.project-media {
+  margin: 1.5rem 0;
+}
+
+.project-media-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.project-media-grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.project-inline-image {
+  width: 100%;
+  box-shadow: none !important;
+}
+
+@media (max-width: 767.98px) {
+  .project-media-grid--2 {
+    grid-template-columns: 1fr;
+  }
+}
