@@ -6,7 +6,7 @@ subtitle: Joint PhD Candidate at <a href='https://www.neu.edu.cn/'>Northeastern 
 
 profile:
   align: right
-  image: profile_pic.jpeg
+  image: profile_pic.jpg
   image_circular: true
   more_info: >
 
