@@ -2,7 +2,7 @@
 layout: page
 title: Humanoid Robotic Touch for Social Regulation of Emotion
 description: Multimodal evidence for how humanoid touch can regulate emotion during media consumption.
-img: assets/img/projects/project2.2.png
+img: assets/img/projects/project2.2.jpg
 importance: 2
 category: academic
 ---
