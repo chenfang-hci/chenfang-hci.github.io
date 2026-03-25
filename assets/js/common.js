@@ -18,17 +18,20 @@ $(document).ready(function () {
   $("a").removeClass("waves-effect waves-light");
 
   // bootstrap-toc
-  if ($("#toc-sidebar").length) {
+  const $tocTargets = $("#toc-sidebar, #toc-inline");
+  if ($tocTargets.length) {
     // remove related publications years from the TOC
     $(".publications h2").each(function () {
       $(this).attr("data-toc-skip", "");
     });
-    var navSelector = "#toc-sidebar";
-    var $myNav = $(navSelector);
-    Toc.init($myNav);
-    $("body").scrollspy({
-      target: navSelector,
+    $tocTargets.each(function () {
+      Toc.init($(this));
     });
+    if ($("#toc-sidebar").length) {
+      $("body").scrollspy({
+        target: "#toc-sidebar",
+      });
+    }
   }
 
   // add css to jupyter notebooks

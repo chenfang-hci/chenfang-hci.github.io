@@ -34,7 +34,7 @@ Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptow
 
 ## Table of Contents Options
 
-If you want to learn more about how to customize the table of contents, you can check the [jekyll-toc](https://github.com/toshimaru/jekyll-toc) repository.
+If you want to learn more about how to customize the table of contents, you can check the [bootstrap-toc](https://afeld.github.io/bootstrap-toc/) documentation.
 
 ### Example of Sub-Heading 2
 
