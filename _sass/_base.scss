@@ -415,9 +415,14 @@ ul.task-list input[type="checkbox"] {
     display: inline;
   }
 
-  &:hover, &:focus {
-    .name-en { display: none; }
-    .name-zh { display: inline; }
+  &:hover,
+  &:focus {
+    .name-en {
+      display: none;
+    }
+    .name-zh {
+      display: inline;
+    }
   }
 
   // keep pinyin hidden but present in DOM for search/indexing

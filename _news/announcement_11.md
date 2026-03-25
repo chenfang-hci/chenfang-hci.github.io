@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started serving as a reviewer for [**Swarm and Evolutionary Computation**](https://www.sciencedirect.com/journal/swarm-and-evolutionary-computation).
+Started serving as a reviewer for **Swarm and Evolutionary Computation**.

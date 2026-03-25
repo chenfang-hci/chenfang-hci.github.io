@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Xiaoke
-middle_name: 
+middle_name:
 last_name: Wang
 email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -114,7 +114,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
- Feel free to contact me by any approach.
+  Feel free to contact me by any approach.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -649,5 +649,3 @@ jsonresume:
   - languages
   - interests
   - references
-
-destination: /mnt/www/users

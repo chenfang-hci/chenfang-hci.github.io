@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our [journal article on DPU benchmarking](https://www.sciencedirect.com/science/article/pii/S0167926026000507) was accepted by **Integration, the VLSI Journal**.
+Our journal article on DPU benchmarking was accepted by **Integration, the VLSI Journal**.

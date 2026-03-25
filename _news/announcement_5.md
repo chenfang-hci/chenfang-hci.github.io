@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our [journal article](https://doi.org/10.1007/s11432-024-4510-2) on particle swarm optimization was accepted by **[SCIENCE CHINA Information Sciences (SCIS)](https://www.springer.com/journal/11432)**.
+Our [journal article](https://doi.org/10.1007/s11432-024-4510-2) on particle swarm optimization was accepted by **SCIENCE CHINA Information Sciences (SCIS)**.
