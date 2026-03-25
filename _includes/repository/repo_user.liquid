@@ -1,0 +1,14 @@
+<div class="repo p-2 text-center">
+  <a href="https://github.com/{{ include.username }}" target="_blank" rel="noopener noreferrer">
+    <div class="card hoverable h-100">
+      <div class="card-body">
+        <h5 class="card-title mb-2"><i class="fa-brands fa-github"></i> @{{ include.username }}</h5>
+        <p class="card-text">GitHub profile</p>
+        <img
+          alt="{{ include.username }} followers"
+          src="https://img.shields.io/github/followers/{{ include.username }}?style=flat-square&logo=github"
+        >
+      </div>
+    </div>
+  </a>
+</div>

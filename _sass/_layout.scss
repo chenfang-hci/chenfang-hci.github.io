@@ -1,0 +1,271 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 66px;
+  }
+}
+
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 56px;
+}
+
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: $max-content-width;
+}
+
+// Profile
+.profile {
+  img {
+    width: 100%;
+  }
+}
+
+figure img,
+figure video,
+img.z-depth-1,
+img.z-depth-2,
+img.z-depth-3,
+img.z-depth-4,
+img.z-depth-5,
+video.z-depth-1,
+video.z-depth-2,
+video.z-depth-3,
+video.z-depth-4,
+video.z-depth-5,
+.publications .preview,
+.publications .preview img {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.home-simple {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.home-simple article {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.home-simple__header {
+  display: block;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 0;
+}
+
+.home-simple__identity {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.home-simple__heading {
+  min-width: 0;
+  padding-top: 0.2rem;
+}
+
+.home-simple__main {
+  margin-top: 1.5rem;
+}
+
+.home-simple__title {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2.2rem, 5vw, 3.3rem);
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.home-simple__subtitle {
+  margin-bottom: 1.5rem;
+  color: var(--global-text-color-light);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.95rem;
+}
+
+.home-simple__intro {
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.home-simple__intro p:last-child {
+  margin-bottom: 0;
+}
+
+.home-simple__profile {
+  width: 72px;
+  min-width: 72px;
+  margin: 0;
+}
+
+.home-simple__profile img {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.home-simple__profile .more-info {
+  margin-top: 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+
+.home-simple__columns {
+  display: block;
+  margin-top: 5rem;
+}
+
+.home-simple__section {
+  margin-bottom: 2.75rem;
+}
+
+.home-simple__section h2 {
+  margin-bottom: 1.1rem;
+  padding-bottom: 0;
+  border-bottom: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.home-simple__section .news {
+  font-size: 0.98rem;
+}
+
+.home-simple__section .news th {
+  padding-left: 0;
+  color: var(--global-text-color-light);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.home-simple__section .news td {
+  padding-right: 0;
+  padding-left: 1.25rem;
+}
+
+.home-simple__section .news .table {
+  margin-bottom: 0;
+}
+
+.home-simple__section .publications {
+  font-size: 0.98rem;
+}
+
+.home-simple__section .publications .preview {
+  width: 84px;
+  min-width: 84px;
+  margin-right: 0.85rem;
+}
+
+.home-simple__section .publications .preview img {
+  width: 100%;
+}
+
+.home-simple__section .publications .abbr {
+  margin-bottom: 0.35rem;
+}
+
+.home-simple__section .publications .bibliography {
+  margin-bottom: 0;
+}
+
+.home-simple__section .publications h2.bibliography {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 1.5rem;
+}
+
+.home-simple__section .publications ol.bibliography {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+.home-simple__section .publications ol.bibliography li {
+  margin-bottom: 1.35rem;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.home-simple__section .publications ol.bibliography li:last-child {
+  margin-bottom: 0;
+}
+
+.home-simple__section--footer {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.home-simple__social {
+  text-align: left;
+}
+
+.home-simple__social .contact-icons {
+  margin-top: 0.75rem;
+  font-size: 1.35rem;
+}
+
+.home-simple__social .contact-note {
+  margin-top: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+}
+
+@media (min-width: 768px) {
+  .home-simple__section {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home-simple__identity {
+    gap: 0.85rem;
+  }
+
+  .home-simple__profile {
+    width: 64px;
+    min-width: 64px;
+  }
+
+  .home-simple__columns {
+    margin-top: 3rem;
+  }
+
+  .home-simple__section .news td {
+    padding-left: 0.75rem;
+  }
+}
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// TODO: redefine publications layout.
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.

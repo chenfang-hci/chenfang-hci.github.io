@@ -1,0 +1,20 @@
+github_users:
+  - xiaokewan
+  # - alshedivat
+
+repo_description_lines_max: 2
+
+github_repos:
+  # - alshedivat/al-folio
+  # - jekyll/jekyll
+  # - twbs/bootstrap
+  # - jquery/jquery
+  # - FortAwesome/Font-Awesome
+  # - mathjax/MathJax
+  # - jpswalsh/academicons
+  - xiaokewan/dPSO
+  - xiaokewan/GNL-Generate-Netlist
+  - xiaokewan/MSCPSO
+  - xiaokewan/MCPSO
+  - xiaokewan/Maze-Router-Animation
+  - xiaokewan/SLPSO

@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<div class="post home-simple">
+  <article>
+    <header class="post-header home-simple__header">
+      <div class="home-simple__identity">
+        {% if page.profile %}
+          <aside class="profile home-simple__profile">
+            {% if page.profile.image %}
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% if page.profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) 120px, (min-width: 576px) 110px, 96px{% endcapture %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                cache_bust=true
+              %}
+            {% endif %}
+            {% if page.profile.more_info %}
+              <div class="more-info">{{ page.profile.more_info }}</div>
+            {% endif %}
+          </aside>
+        {% endif %}
+
+        <div class="home-simple__heading">
+          <h1 class="post-title home-simple__title">
+            {% if site.title == 'blank' %}
+              <span class="name-toggle" title="Xiaoke Wang">
+                <span class="name-en">
+                  <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+                  {{ site.last_name }}
+                </span>
+                <span class="name-zh"><span class="font-weight-bold">王筱轲</span></span>
+                <!-- hidden pinyin to help search/indexing: "wang xiao ke" -->
+                <span class="name-pinyin" style="display:none">wang xiao ke</span>
+              </span>
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+          </h1>
+
+          {% if page.subtitle %}
+            <p class="desc home-simple__subtitle">{{ page.subtitle }}</p>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="home-simple__main">
+        <div class="home-simple__intro">{{ content }}</div>
+      </div>
+    </header>
+
+    <div class="home-simple__columns">
+      {% if page.news and site.announcements.enabled %}
+        <section class="home-simple__section">
+          <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h2>
+          {% include news.liquid limit=true %}
+        </section>
+      {% endif %}
+
+      <section class="home-simple__section">
+        <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a></h2>
+        <div class="publications">
+          {% bibliography %}
+        </div>
+      </section>
+    </div>
+
+    {% if page.social %}
+      <section class="home-simple__section home-simple__section--footer">
+        <div class="social home-simple__social">
+          <div class="contact-icons">{% include social.liquid %}</div>
+          {% if site.contact_note %}
+            <div class="contact-note">{{ site.contact_note }}</div>
+          {% endif %}
+        </div>
+      </section>
+    {% endif %}
+
+    {% if site.newsletter.enabled and site.footer_fixed %}
+      {% include scripts/newsletter.liquid center=true %}
+    {% endif %}
+
+    {% include clustrmap.liquid %}
+  </article>
+</div>
