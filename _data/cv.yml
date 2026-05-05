@@ -1,13 +1,3 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Chen Fang
-    - name: Current Position
-      value: Joint PhD Candidate, Northeastern University and Ghent University
-    - name: Research Areas
-      value: Human-AI interaction, trust, multimodal UX measurement, and HRI
-
 - title: Education
   type: time_table
   contents:
