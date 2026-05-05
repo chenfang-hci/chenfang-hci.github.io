@@ -51,23 +51,7 @@
     - First Graduate Scholarship (6 times), Principal Scholarship, Jinpeng Scholarship Second Prize, and Excellent Student (2 times), Northeastern University, 2020 - 2025
     - National Endeavor Fellowship (2 times), Second Graduate Scholarship (4 times), Excellent Student (3 times), Outstanding Graduate, and Outstanding Dissertation, Northeastern University, 2016 - 2020
 
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Programming and Analysis
-      items:
-        - Experimental design, statistical analysis, data processing, and data mining
-        - MATLAB, SPSS, JASP, G*Power, BeGaze, E-Prime, and Origin
-    - title: Physiological Measurements
-      items:
-        - SMI eye-tracking system
-        - Biopac MP150
-        - LIGHTNIRS
-        - Neuroscan EEG and ERP system
-
-- title: Research Interests
+- title: Review Service
   type: list
   contents:
-    - Human-AI interaction
-    - Intentional stance and trust in conversational agents
-    - Multimodal evaluation combining subjective and neurophysiological measurements
+    - Advanced Robotics
