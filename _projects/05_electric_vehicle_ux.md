@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Electric Vehicle Interior UX Study
+title: Electric Vehicle Interior UX Study (Deloitte)
 description: An industry collaboration using ERP to evaluate in-vehicle interaction design and user experience.
 img: assets/img/projects/project5.png
 importance: 5
