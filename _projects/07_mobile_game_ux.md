@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mobile Game UX and Hand Fatigue Study
+title: Mobile Game UX and Hand Fatigue Study (Tencent Games)
 description: An EDA-based industry study on physical comfort, fatigue, and interaction experience in mobile gaming.
 img: assets/img/projects/project7.png
 importance: 7
