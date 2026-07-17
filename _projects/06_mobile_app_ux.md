@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mobile App UX Evaluation with Eye Tracking
+title: Mobile App UX Evaluation with Eye Tracking (Baidu)
 description: An industry study on how layout and visual presentation shape attention and interaction experience in a large-scale mobile platform.
 img: assets/img/projects/project6.png
 importance: 6
